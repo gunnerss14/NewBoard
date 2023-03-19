@@ -7,6 +7,13 @@ public class PostVO {
     private String writePw;
     private String content;
     private String secretV;
+    private String wDate;
+    private int hit;
+
+
+
+    //-----------------------------
+
 
     public int getPostSN() {
         return postSN;
@@ -71,10 +78,4 @@ public class PostVO {
     public void setHit(int hit) {
         this.hit = hit;
     }
-
-    private String wDate;
-    private int hit;
-
-
-
 }
