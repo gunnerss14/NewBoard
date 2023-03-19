@@ -1,21 +1,19 @@
 package KGB.VO;
 
 public class PostVO {
-    private int bNum;
+    private int postSN;
     private String title;
     private String writeId;
     private String writePw;
     private String content;
     private String secretV;
-    private String wDate;
-    private int hit;
 
-    public int getbNum() {
-        return bNum;
+    public int getPostSN() {
+        return postSN;
     }
 
-    public void setbNum(int bNum) {
-        this.bNum = bNum;
+    public void setPostSN(int postSN) {
+        this.postSN = postSN;
     }
 
     public String getTitle() {
@@ -73,5 +71,10 @@ public class PostVO {
     public void setHit(int hit) {
         this.hit = hit;
     }
+
+    private String wDate;
+    private int hit;
+
+
 
 }
